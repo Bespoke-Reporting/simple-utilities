@@ -1,0 +1,29 @@
+.text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+} 
+
+.logo{
+  display: block;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+.sign-up-form{
+  padding-top: 5000px;
+}
+
+.footer-text{
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+}

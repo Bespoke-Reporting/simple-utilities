@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Utilities</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6a4d1fb5aa.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <script src="app.js" defer></script>
+    <div class="text">
+      <img src="images/SU Logo Trans.png" class="logo">
+      <br>
+      <p>Simplifying and de-risking the utilities process for developers</p>
+      <br>
+      <p>More details coming soon.</p>
+    
+    </div>
+    <br>
+
+<div class="max-w-lg mx-auto bg-white rounded-2xl shadow-xl p-8 text-center sign-up-form">
+  <h2 class="text-3xl font-bold text-gray-800 mb-2">Sign up for updates</h2>
+  <p class="text-gray-600 mb-6">Leave your details and one of our team will be in touch shortly.</p>
+
+  <form id="contactForm" action="https://formsubmit.co/ajax/info@simpleutilitiesltd.com" method="POST" class="space-y-5">
+    <!-- Hidden config -->
+    <input type="hidden" name="_captcha" value="false" />
+    <input type="hidden" name="_subject" value="New update sign-up from Simple Utilities" />
+    <input type="hidden" name="_template" value="table" />
+
+    <div class="text-left">
+      <label for="name" class="block mb-1 text-sm font-medium text-gray-700">Name</label>
+      <input type="text" name="name" id="name" required class="w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+    </div>
+
+    <div class="text-left">
+      <label for="email" class="block mb-1 text-sm font-medium text-gray-700">Email</label>
+      <input type="email" name="email" id="email" required class="w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+    </div>
+
+    <div class="text-left">
+      <label for="message" class="block mb-1 text-sm font-medium text-gray-700">Message</label>
+      <textarea name="message" id="message" rows="3" class="w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+    </div>
+
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md font-semibold hover:bg-blue-700 transition-all">
+      Send
+    </button>
+  </form>
+
+  <div id="thankYouMessage" class="hidden mt-6 text-green-700 text-lg font-medium">
+    Thank you, one of the team will be in touch shortly.
+  </div>
+</div>
+
+
+<!-- Load the script -->
+<script src="app.js" defer></script>
+
+
+
+
+    <footer class="footer-text">
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter social-icon fa-2x"></i></a>
+    <i class="fa-brands fa-facebook-f social-icon fa-2x"></i>
+    <a href="https://www.instagram.com/simple_utilities_consultancy?igsh=MWVjcG41cHZ1d29kZg=="><i class="fa-brands fa-instagram social-icon fa-2x"></i></a>
+    <a href="mailto:info@simpleutilitiesltd.com"><i class="fa-solid fa-envelope social-icon fa-2x"></i></a>
+    <p>© Copyright Simple Utilities LTD 2025</p>
+    <a href="privacy.html"><p>Privacy Policy</p></a>
+
+    </footer>
+  </body>
+</html>
